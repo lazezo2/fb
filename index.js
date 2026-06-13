@@ -4,7 +4,7 @@ const path = require('path');
 // ==========================================
 // ⚙️ إعدادات السكربت (سهلة التعديل)
 // ==========================================
-const BLOG_URL = 'https://rtl-demo.seoplus-template.com'; // رابط مدونتك بدون سلاش في النهاية
+const BLOG_URL = 'https://elmanzel-el3asry.blogspot.com'; // رابط مدونتك بدون سلاش في النهاية
 const MAX_POSTS_TO_SAVE = 10; // عدد المقالات التي تريد حفظها في كل ملف
 const SUMMARY_LENGTH = 100;    // طول مقتطف المقال (عدد الحروف)
 
