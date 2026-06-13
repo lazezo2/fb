@@ -1,0 +1,40 @@
+name: Blogger Automated Optimizer
+
+on:
+  schedule:
+    # ⏱️ تايمر الزمن: يعمل تلقائياً كل ساعتين
+    # لتعديله لـ 4 ساعات مثلاً غيره إلى: '0 */4 * * *'
+    # لتعديله كل ساعة: '0 * * * *'
+    - cron: '0 */2 * * *'
+  
+  # يتيح لك تشغيل الأكشن يدوياً من واجهة الجيتهب للتجربة الفورية
+  workflow_dispatch: 
+
+jobs:
+  run-optimization:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. سحب كود المستودع
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    # 2. تثبيت بيئة تشغيل نود جي إس
+    - name: Setup Node.js Environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    # 3. تشغيل السكربت لمعالجة الجيسون والملفات
+    - name: Execute Optimization Script
+      run: node index.js
+
+    # 4. رفع الملفات الجديدة والمحدثة تلقائياً إلى المستودع
+    - name: Deploy Updated Feeds to GitHub Pages
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add post.json post-r.json labels/*.json
+        # ستتخطى الأداة الإجراء إذا لم تكن هناك تغييرات جديدة لمنع حدوث أخطاء
+        git commit -m "Automated feed sync [skip ci]" || exit 0
+        git push
