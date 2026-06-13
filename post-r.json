@@ -1,175 +1,135 @@
-[
-  {
-    "id": "5066228258147071082",
-    "title": "اختبار ثلاثى بوست واحد",
-    "summary": "",
-    "url": "https://elmanzel-el3asry.blogspot.com/2025/09/blog-post_8.html",
-    "thumb": "",
-    "category": [
-      "بوست1.بوست2"
-    ],
-    "updated": "2025-09-08T04:26:08.612-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
+{
+  "blogAuthor": {
+    "name": "م/ ايمن ياسر عبد العزيز",
+    "url": "http://www.blogger.com/profile/14944130064031119151",
+    "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
   },
-  {
-    "id": "5725992651616752371",
-    "title": "اختبار",
-    "summary": "اختباراختبار&nbsp;اختباراختبار&nbsp;",
-    "url": "https://elmanzel-el3asry.blogspot.com/2025/09/blog-post_3.html",
-    "thumb": "",
-    "category": [],
-    "updated": "2025-09-03T05:12:43.793-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
+  "posts": [
+    {
+      "id": "4634265949391197992",
+      "title": "ركن الجلوس العصري في المنزل",
+      "summary": "&nbsp;ركن الجلوس العصري في المنزل\n\nركن الجلوس هو قلب البيت، المكان اللي بتتجمع فيه العيلة وبتتقضى في...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_31.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB7cjxJcn0YnIq5OLFJAH-a0WJEQF4bZ-9VVZdImoI6D1BeCO_VH8DSigOG1J5sffEex-XhKZnKx4-bqS_ng0uTLMPprJXW_Y2j46hABpZWGms4sEqIrIn9mgFZUZggqfNmSF9jkgbtwdFYSA265mgDhXHaMqvoWVLWi_yz5hteweni63n56Tktwo_9_A/s72-c/99.jpg",
+      "category": [
+        "عام"
+      ],
+      "updated": "2025-10-15T10:21:43.459-07:00",
+      "comments": 0
+    },
+    {
+      "id": "5161277205218590887",
+      "title": "غرفة النوم المريحة: راحة وهدوء في كل ليلة",
+      "summary": "&nbsp;غرفة النوم المريحة: راحة وهدوء في كل ليلة\n\nغرفة النوم مش بس مكان للنوم، لكنها مساحة راحة وهدوء...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_49.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZq9T4_grFHQUdVIBKJpepi_-XYJ31Rsn1tfJgOi3vEBaezf7a0ryTOdkSenfqkq-qpJNWS90vau-U8N5ps0cRqyiZin3_9JwdvQuvmhzbuewsnq6fgDPJey2NFBZa9LnH47HLi6Sr6NbnSBNzvRUmptwEzjBPmTzgypiDHiEZOlAuQSF18iL9RSww5Es/s72-c/10.jpg",
+      "category": [
+        "عام"
+      ],
+      "updated": "2025-10-15T10:23:02.455-07:00",
+      "comments": 0
+    },
+    {
+      "id": "1254616872903380049",
+      "title": "12",
+      "summary": "اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.رابط ...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2024/07/12_4.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
+      "category": [
+        "خاص",
+        "عام"
+      ],
+      "updated": "2025-09-02T23:14:58.006-07:00",
+      "comments": 0
+    },
+    {
+      "id": "2776114106690696303",
+      "title": "سادس مقاله",
+      "summary": "اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.\n\n  ا...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2024/07/blog-post_14.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
+      "category": [
+        "خاص",
+        "عام"
+      ],
+      "updated": "2025-09-02T23:14:58.006-07:00",
+      "comments": 0
+    },
+    {
+      "id": "8287023892948588957",
+      "title": "سابع مقاله",
+      "summary": "اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.\n\n  ا...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2024/07/blog-post_65.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
+      "category": [
+        "خاص",
+        "عام"
+      ],
+      "updated": "2025-09-02T23:14:58.006-07:00",
+      "comments": 1
+    },
+    {
+      "id": "3007187580480498838",
+      "title": "ثالث مقالة",
+      "summary": "اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.\n\n  ا...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2024/07/blog-post_69.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
+      "category": [
+        "خاص",
+        "عام"
+      ],
+      "updated": "2025-09-02T23:14:58.006-07:00",
+      "comments": 0
+    },
+    {
+      "id": "8532767866600311835",
+      "title": "22",
+      "summary": "اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.رابط ...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2024/07/22.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-w400-h300-c/",
+      "category": [
+        "خاص",
+        "عام"
+      ],
+      "updated": "2025-09-02T23:14:58.006-07:00",
+      "comments": 0
+    },
+    {
+      "id": "3874691681654567600",
+      "title": "التكييف والتبريد في المنزل العصري",
+      "summary": "&nbsp;التكييف والتبريد في المنزل العصري\n\nفي أيام الحر، التكييف بقى من أساسيات الراحة في أي بيت عصري....",
+      "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_38.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDmiHWNqQ-C4lr3YdMbADVaO-gvNCqi8phDfy4bvSkuhIhMRZG0X0Fu_euU04DR8FcTdzvXc-qI1qhAHbodej_VNQmm3p37SMn4Wv78q_FbbzHmIDJJvYTZF2Ef_LI_EDDaqSI5IpnNd20RqTWLTrZZeuOFj4EdbGCCLix4Gzys_ljBYctPLufQd4xTkE/s72-c/66.jpg",
+      "category": [
+        "عام"
+      ],
+      "updated": "2025-10-15T10:17:33.479-07:00",
+      "comments": 0
+    },
+    {
+      "id": "23450207507499431",
+      "title": "21",
+      "summary": "اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.رابط ...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2024/07/21.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-w320-h240-c/",
+      "category": [
+        "خاص",
+        "عام"
+      ],
+      "updated": "2025-09-02T23:14:58.006-07:00",
+      "comments": 0
+    },
+    {
+      "id": "8164348109720384139",
+      "title": "غرفة المعيشة العصرية: راحة وأناقة",
+      "summary": "&nbsp;غرفة المعيشة العصرية: راحة وأناقة\n\nغرفة المعيشة هي قلب البيت، المكان اللي بنقضي فيه أجمل اللحظ...",
+      "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_24.html",
+      "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjWQnPmvmwfS520hwM2b1i2W1TxXmlsk8s2xZLw9H_E7a3ESLZOUXwaCM-NsNzT2B1zYFSgfyyC2ahnagME2l63lOfC0wbs173JCBRvb0ySAWq7U9-75g_dH6nW_EPHOqerCMG3yba6Z_nydy_zbFBlQWahAiHtD_xb8MHrfC4uiVAyW1P_rD4Nw7DaqU/s72-c/16.jpg",
+      "category": [
+        "خاص"
+      ],
+      "updated": "2025-10-15T10:34:10.825-07:00",
+      "comments": 0
     }
-  },
-  {
-    "id": "1157070181174518784",
-    "title": "17",
-    "summary": "\n   اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.رابط التحميل&nbsp; \n\n  العنوان الفرعي الثاني\n  هذه الفقرة الثانية توضح المحتوى الخاص بالعنوان الفرعي الثاني.\n\n  العنوان الفرعي الثالث\n  هذه فقرة توضح المحتوى الخاص بالعنوان الفرعي الثالث.\n\n  هذا النص يمثل اقتباسًا مهمًا يجب التأكيد عليه.\n\n  العنوان الفرعي الرابع\n  \n    نقطة أولى\n    نقطة ثانية\n    ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2024/07/17.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
-    "category": [
-      "خاص",
-      "عام"
-    ],
-    "updated": "2025-09-02T23:14:58.006-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "586484512808941666",
-    "title": "خامس مقاله",
-    "summary": "\n  اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.\n\n  العنوان الفرعي الثاني\n  هذه الفقرة الثانية توضح المحتوى الخاص بالعنوان الفرعي الثاني.\n\n  العنوان الفرعي الثالث\n  هذه فقرة توضح المحتوى الخاص بالعنوان الفرعي الثالث.\n\n  هذا النص يمثل اقتباسًا مهمًا يجب التأكيد عليه.\n\n  العنوان الفرعي الرابع\n  \n    نقطة أولى\n    نقطة ثانية\n    نقطة ثالثة\n  \n\n  ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2024/07/blog-post_74.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
-    "category": [
-      "خاص",
-      "عام"
-    ],
-    "updated": "2025-09-02T23:14:58.006-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "1202673020833092690",
-    "title": "الحمّام العصري: أناقة وبساطة في نفس الوقت",
-    "summary": "&nbsp;الحمّام العصري: أناقة وبساطة في نفس الوقت\n\nالحمّام مش بس مساحة وظيفية، لكنه جزء مهم من شكل البيت. تصميمه بطريقة عصرية وبسيطة يخليه أنيق ومريح في الاستخدام اليومي.\n\n1. الألوان والمواد\n\n  الألوان الفاتحة زي الأبيض والرمادي تفتح المساحة.\n  اختيار سيراميك لامع يضيف لمسة راقية.\n  مزج خامات بسيطة زي الزجاج والخشب يعطي مظهر عصري.\n\n\n2. استغلال المساحة\n\n  استخدم خزائن صغيرة تحت الحوض لتخزين الأغراض.",
-    "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_81.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfmKvfyI_ypbUvxv_IHEeHXfyYKQHNwdI1I1uozW2LOvs4GoCUeSs06BkaPx474uV9lysu7_TcGWXsE-86d3Od9KS1TZe5WsTGl-ZTQTt3XZbHNty9O7SZiQUOOV3TbI31yA0d9JEdupmktTF4E1fBzMwt-SLh7yRzTdBGJdX9igcVjMomueUXmCu1sho/s72-c/11.jpg",
-    "category": [
-      "خاص"
-    ],
-    "updated": "2025-10-15T10:26:55.336-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "8287023892948588957",
-    "title": "سابع مقاله",
-    "summary": "\n  اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.\n\n  العنوان الفرعي الثاني\n  هذه الفقرة الثانية توضح المحتوى الخاص بالعنوان الفرعي الثاني.\n\n  العنوان الفرعي الثالث\n  هذه فقرة توضح المحتوى الخاص بالعنوان الفرعي الثالث.\n\n  هذا النص يمثل اقتباسًا مهمًا يجب التأكيد عليه.\n\n  العنوان الفرعي الرابع\n  \n    نقطة أولى\n    نقطة ثانية\n    نقطة ثالثة\n  \n\n  ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2024/07/blog-post_65.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
-    "category": [
-      "خاص",
-      "عام"
-    ],
-    "updated": "2025-09-02T23:14:58.006-07:00",
-    "comments": 1,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "4634265949391197992",
-    "title": "ركن الجلوس العصري في المنزل",
-    "summary": "&nbsp;ركن الجلوس العصري في المنزل\n\nركن الجلوس هو قلب البيت، المكان اللي بتتجمع فيه العيلة وبتتقضى فيه أحلى الأوقات. تصميمه بشكل عصري وبسيط يخليه مريح وجذاب.\n\n1. اختيار الألوان\n\n  الألوان الهادية زي الأبيض والرمادي بتدي إحساس بالراحة.\n  ممكن تضيف لمسة لون جريئة في الوسائد أو السجاد.\n  الألوان المتناسقة بتخلي الركن شكله أنيق ومتوازن.\n\n\n2. توزيع الأثاث\n\n  اختار كنبة مريحة وبتناسب حجم الغرفة.\n  سيب ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_31.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB7cjxJcn0YnIq5OLFJAH-a0WJEQF4bZ-9VVZdImoI6D1BeCO_VH8DSigOG1J5sffEex-XhKZnKx4-bqS_ng0uTLMPprJXW_Y2j46hABpZWGms4sEqIrIn9mgFZUZggqfNmSF9jkgbtwdFYSA265mgDhXHaMqvoWVLWi_yz5hteweni63n56Tktwo_9_A/s72-c/99.jpg",
-    "category": [
-      "عام"
-    ],
-    "updated": "2025-10-15T10:21:43.459-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "8164348109720384139",
-    "title": "غرفة المعيشة العصرية: راحة وأناقة",
-    "summary": "&nbsp;غرفة المعيشة العصرية: راحة وأناقة\n\nغرفة المعيشة هي قلب البيت، المكان اللي بنقضي فيه أجمل اللحظات مع العيلة والأصدقاء. بتصميم بسيط ولمسات أنيقة تقدر تخليها مريحة وعصرية.\n\n1. الأثاث المريح\n\n  اختار كنبة مريحة بألوان هادئة.\n  أضف طاولة وسط بسيطة وعملية.\n  استعمل وسائد تضيف دفء للمكان.\n\n\n2. الإضاءة المناسبة\n\n  إضاءة طبيعية نهارًا من خلال النوافذ.\n  مصابيح جانبية لجو مريح في الليل.\n  لمسات من ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2025/10/blog-post_24.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjWQnPmvmwfS520hwM2b1i2W1TxXmlsk8s2xZLw9H_E7a3ESLZOUXwaCM-NsNzT2B1zYFSgfyyC2ahnagME2l63lOfC0wbs173JCBRvb0ySAWq7U9-75g_dH6nW_EPHOqerCMG3yba6Z_nydy_zbFBlQWahAiHtD_xb8MHrfC4uiVAyW1P_rD4Nw7DaqU/s72-c/16.jpg",
-    "category": [
-      "خاص"
-    ],
-    "updated": "2025-10-15T10:34:10.825-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "8532767866600311835",
-    "title": "22",
-    "summary": "\n   اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.رابط التحميل&nbsp; \n\n  العنوان الفرعي الثاني\n  هذه الفقرة الثانية توضح المحتوى الخاص بالعنوان الفرعي الثاني.\n\n  العنوان الفرعي الثالث\n  هذه فقرة توضح المحتوى الخاص بالعنوان الفرعي الثالث.\n\n  هذا النص يمثل اقتباسًا مهمًا يجب التأكيد عليه.\n\n  العنوان الفرعي الرابع\n  \n    نقطة أولى\n    نقطة ثانية\n    ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2024/07/22.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-w400-h300-c/",
-    "category": [
-      "خاص",
-      "عام"
-    ],
-    "updated": "2025-09-02T23:14:58.006-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  },
-  {
-    "id": "1254616872903380049",
-    "title": "12",
-    "summary": "\n   اول مقالة\n\n  العنوان الفرعي الأول\n  هذه الفقرة الأولى توضح المحتوى الخاص بالعنوان الفرعي الأول.رابط التحميل&nbsp; \n\n  العنوان الفرعي الثاني\n  هذه الفقرة الثانية توضح المحتوى الخاص بالعنوان الفرعي الثاني.\n\n  العنوان الفرعي الثالث\n  هذه فقرة توضح المحتوى الخاص بالعنوان الفرعي الثالث.\n\n  هذا النص يمثل اقتباسًا مهمًا يجب التأكيد عليه.\n\n  العنوان الفرعي الرابع\n  \n    نقطة أولى\n    نقطة ثانية\n    ",
-    "url": "https://elmanzel-el3asry.blogspot.com/2024/07/12_4.html",
-    "thumb": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjs1XoTqcBmOTPiRb5KYX9ZY9LuT6ung5eet6vjgB3m5CSvCEWf3SqQ10iee2lvtpnUdwDGhi1fR4j3mXhGI24OlzacED6Uq0sTvqqdGYIiEskvflOAv-UCz7wsZxXemkYJCpVqvJ-eqN/s72-c",
-    "category": [
-      "خاص",
-      "عام"
-    ],
-    "updated": "2025-09-02T23:14:58.006-07:00",
-    "comments": 0,
-    "author": {
-      "name": "م/ ايمن ياسر عبد العزيز",
-      "url": "http://www.blogger.com/profile/14944130064031119151",
-      "img": "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbC5QIPKCFeYoDaqImVPfI_5DcVJ4vO6HPnJZtI42Bzu89kjqGfTPXP_ESiDuwqLgSAOYlyGS-62EILmZOsOAaK1PgRfUrAriLHR-s0vV0l6UVoyuYVqs6VPuMZkmRgQ/s53/ayman+yasser.webp"
-    }
-  }
-]
+  ]
+}
