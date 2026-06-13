@@ -102,18 +102,12 @@ function cleanPostData(entry, defaultBlogTitle) {
     return postObj;
 }
 
-// دالة لهيكلة الملف النهائي بناءً على خيار الملت يوزر لتقليل الحجم
+// دالة ثابتة وموحدة لهيكلة الملف النهائي دائماً كـ Object
 function structureFinalJson(postsArray, blogAuthorObj) {
-    if (MULTI_USER) {
-        // إذا كان ترو، يرجع المصفوفة مباشرة كما هي (كل بوست بداخله كاتبه)
-        return postsArray;
-    } else {
-        // إذا كان فولس، يدمج بيانات كاتب المدونة مرة واحدة في الرأس مع المقالات
-        return {
-            blogAuthor: blogAuthorObj,
-            posts: postsArray
-        };
-    }
+    return {
+        blogAuthor: blogAuthorObj, // بيانات الناشر الرئيسي متواجدة دائماً في رأس الملف
+        posts: postsArray          // مصفوفة المقالات ثابتة دائماً هنا للـ Loop
+    };
 }
 
 async function startAutomation() {
