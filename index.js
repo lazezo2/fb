@@ -144,11 +144,11 @@ async function startAutomation() {
 
         // حفظ ملف أحدث المقالات العامة
         const latestMainPosts = allCleanMainPosts.slice(0, MAX_POSTS_TO_SAVE);
-        fs.writeFileSync('post.json', JSON.stringify(structureFinalJson(latestMainPosts, blogMainAuthor), null, 2));
+        fs.writeFileSync(path.join(labelsDir, 'post.json'), JSON.stringify(structureFinalJson(latestMainPosts, blogMainAuthor), null, 2));
 
         // حفظ ملف المقالات العامة العشوائية
         const randomMainPosts = getRandomPosts(allCleanMainPosts, MAX_POSTS_TO_SAVE);
-        fs.writeFileSync('post-r.json', JSON.stringify(structureFinalJson(randomMainPosts, blogMainAuthor), null, 2));
+        fs.writeFileSync(path.join(labelsDir, 'post-r.json'), JSON.stringify(structureFinalJson(randomMainPosts, blogMainAuthor), null, 2));
 
         console.log(`✅ تم حفظ الملفات الرئيسية العامة بنجاح.`);
 
