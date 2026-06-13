@@ -1,0 +1,11 @@
+{
+  "name": "blogger-feed-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize and compress Blogger feeds using GitHub Actions",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
