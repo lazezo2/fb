@@ -1502,7 +1502,9 @@ function triple(e, t, a, s) {
 //UltraLazy = false;
 //triplev = false;
 if (!UltraLazy){
-document.addEventListener("DOMContentLoaded", function() {
+	
+function dom2(){
+	
 if(triplev && isPost){machine_brake = true;var temprelat=document.querySelectorAll('.placa[data-type="RetePostsRand"]');if(q_douple=0,2==temprelat.length){var q_douple="label:"+temprelat[0].getAttribute(_x2724)+"|label:"+temprelat[1].getAttribute(_x2724);temprelat[0].remove(),triple(temprelat[1],0,6,q_douple)}else temprelat[0]&&triple(temprelat[0],0,3,q_douple);}
 else{machine_brake = false;machine({type:"scroll"});}
 document.addEventListener('scroll', function bitsys() {
@@ -1510,9 +1512,13 @@ document.addEventListener('scroll', function bitsys() {
 bitsy = false;
     document.removeEventListener('scroll', bitsys);
 });
-
-
-});
+}
+if (document.readyState != "loading") {
+    // 1. هنا بتكتب الكود اللي عاوزه يشتغل فوراً لأن الـ DOM جاهز والحدث عدى
+    dom2(); 
+} else {	
+document.addEventListener("DOMContentLoaded", dom2);
+}
 }
 
 
@@ -1606,13 +1612,17 @@ stog_status = !1;
 function stog() {}
 
  if (isPost) {
-window.addEventListener("DOMContentLoaded", (function (t) {
-   
-	//
-	
-	
+	 
+function dom1(){
 	UltraLazy || ((!lazy_img && !lazy_img1 || lazy_img1 && is_pc) && magic(),machine(t)), contact && document.querySelector("#callme") && stog()
-}));
+	
+}
+if (document.readyState != "loading") {
+    // 1. هنا بتكتب الكود اللي عاوزه يشتغل فوراً لأن الـ DOM جاهز والحدث عدى
+    dom1(); 
+} else {	 
+window.addEventListener("DOMContentLoaded", dom1);
+}
 }
 
 
@@ -1697,8 +1707,9 @@ UltraLazy && (window.addEventListener("mousemove", debounceHandler5), window.add
     document.body.appendChild(js);
   }
 
-document.addEventListener("DOMContentLoaded", function() {
 
+function dom4(){
+	
   // scroll delay
   window.addEventListener("scroll", function() {
     if (scrollTimer === null) {
@@ -1723,8 +1734,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
-});
 }
+if (document.readyState != "loading") {
+    // 1. هنا بتكتب الكود اللي عاوزه يشتغل فوراً لأن الـ DOM جاهز والحدث عدى
+    dom4(); 
+} else {
+document.addEventListener("DOMContentLoaded", dom4);
+}
+  }
 
 //header and side menu
 const site_header = document.querySelector(".site-header");
@@ -1768,10 +1785,9 @@ function Dark(){
     localStorage.setItem('site-dark', isDark ? '1' : '0');
 	});
 }
-	
-document.addEventListener("DOMContentLoaded", function() {
-   
-   // 1. remove +/- from header menu
+
+function dom3(){
+	 // 1. remove +/- from header menu
   
    let allLinks = mainMenu.querySelectorAll("li a");
 
@@ -1981,8 +1997,13 @@ if (doc) {
 	 if(js_coments){
 	 bcom();
 	 }
-})
-
+}	
+if (document.readyState != "loading") {
+    // 1. هنا بتكتب الكود اللي عاوزه يشتغل فوراً لأن الـ DOM جاهز والحدث عدى
+    dom3(); 
+} else {
+document.addEventListener("DOMContentLoaded", dom3)
+}
 
 	 
 build_sidem_status = false;
