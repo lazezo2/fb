@@ -1613,13 +1613,13 @@ function stog() {}
 
  if (isPost) {
 	 
-function dom1(){
+function dom1(t){
 	UltraLazy || ((!lazy_img && !lazy_img1 || lazy_img1 && is_pc) && magic(),machine(t)), contact && document.querySelector("#callme") && stog()
 	
 }
 if (document.readyState != "loading") {
     // 1. هنا بتكتب الكود اللي عاوزه يشتغل فوراً لأن الـ DOM جاهز والحدث عدى
-    dom1(); 
+    dom1({ type: "instant", timeStamp: performance.now() }); 
 } else {	 
 window.addEventListener("DOMContentLoaded", dom1);
 }
