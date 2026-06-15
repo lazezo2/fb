@@ -1175,12 +1175,9 @@ window.machine = function (e) {
                                       (y.insertAdjacentHTML("afterEnd", r),
                                       t.parentElement.parentElement.classList.add("posts-from"))),
                             console.log(t.getAttribute(_x2724) + " 2"),
-                            !aa &&
-                                (t.parentElement.innerHTML =
-                                    t.getAttribute("data-type") != "RetePostsRand" &&
-                                    t.getAttribute("data-type") != "RetPosts"
-                                        ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>"
-                                        : emojies(e, t)),
+                            //!aa && (t.parentElement.innerHTML = t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts" ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>": emojies(e, t)),
+                            !aa && ((t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+							
                             console.log(t.getAttribute(_x2724) + " 3"),
                             aa &&
                                 (t.insertAdjacentHTML(
@@ -1206,11 +1203,9 @@ window.machine = function (e) {
                                     .insertAdjacentHTML("afterEnd", r),
                                 t.parentElement.parentElement.classList.add("posts-from")),
                             console.log(t.getAttribute(_x2724) + " 5"),
-                            (t.parentElement.innerHTML =
-                                t.getAttribute("data-type") != "RetePostsRand" &&
-                                t.getAttribute("data-type") != "RetPosts"
-                                    ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>"
-                                    : emojies(e, t)),
+                            //(t.parentElement.innerHTML = t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts" ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+							(t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+                            
                             console.log(t.getAttribute(_x2724) + " 6"),
                             magic();
                     }));
@@ -1319,7 +1314,8 @@ window.machine = function (e) {
             console.log(t.getAttribute(_x2724)+" 1"),
 			!aa && t.parentElement && t.parentElement.parentElement && (t.parentElement.parentElement.classList.contains("posts-from") ? ((x = t.parentElement.parentElement.querySelectorAll(".title"))[1] && x[1].insertAdjacentHTML("afterEnd", r)) : ((y = t.parentElement.parentElement.querySelector(".title")) && (y.insertAdjacentHTML("afterEnd", r), t.parentElement.parentElement.classList.add("posts-from")))), 
 			console.log(t.getAttribute(_x2724)+" 2"),
-			!aa && (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+			//!aa && (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+			!aa && ((t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
 			console.log(t.getAttribute(_x2724)+" 3"),
 			aa && (t.insertAdjacentHTML("afterend", `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>"),t.remove()),
 			magic(), "ay-news" == t.getAttribute("data-type") && newsInit()
@@ -1328,8 +1324,9 @@ window.machine = function (e) {
 			t.parentElement && t.parentElement.parentElement && t.parentElement.parentElement.querySelector(".title") && (t.parentElement.parentElement.querySelector(".title").insertAdjacentHTML("afterEnd", r),			
 			t.parentElement.parentElement.classList.add("posts-from")), 
 			console.log(t.getAttribute(_x2724)+" 5"),
-			( t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)), 
-			console.log(t.getAttribute(_x2724)+" 6"),			
+			//( t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)), 
+			(t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+				console.log(t.getAttribute(_x2724)+" 6"),			
 			magic()
         })))
     }))
