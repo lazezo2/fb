@@ -1470,9 +1470,10 @@ function triple(e, t, a, s) {
     ) {
         function m(e, s, r) {
             s.parentElement.parentElement.querySelector(".headline .title") && (s.parentElement.parentElement.querySelector(".headline .title").insertAdjacentHTML("afterEnd", r), s.parentElement.parentElement.classList.add("posts-from")),
-                (s.parentElement.innerHTML =
-                    "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
-                magic(),
+               //(s.parentElement.innerHTML = "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
+				(s.parentElement.querySelector("style") && s.parentElement.after(s.parentElement.querySelector("style"))), (s.parentElement.innerHTML = "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
+                
+				magic(),
                 "ay-news" == s.getAttribute("data-type") && newsInit();
         }
         e.classList.add("loadclass"),
