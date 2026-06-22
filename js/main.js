@@ -1,4 +1,6 @@
  
+ 
+ 
 		  
 		  if(isPost || isPage){
 		  // 1. share build function
@@ -1010,7 +1012,7 @@ bitsy = true;
 MaxTitle = true; 
 PostCount =24;
 nolapel = "بدون قسم";
-imgfilter  = "/w266-h160-e90-rw/";
+//imgfilter  = "/w266-h160-e90-rw/";
 speedup = true;
 var _0x224f59=_0x32cc;function _0x32cc(_0x349d6d,_0x1d746d){var _0x544b68=_0x544b();return _0x32cc=function(_0x32cc95,_0x146204){_0x32cc95=_0x32cc95-0x1c4;var _0xf927d2=_0x544b68[_0x32cc95];return _0xf927d2;},_0x32cc(_0x349d6d,_0x1d746d);}(function(_0x43af57,_0x421bd3){var _0x14e758=_0x32cc,_0x31c89c=_0x43af57();while(!![]){try{var _0x557a44=-parseInt(_0x14e758(0x1d7))/0x1*(-parseInt(_0x14e758(0x1ce))/0x2)+-parseInt(_0x14e758(0x1d4))/0x3+-parseInt(_0x14e758(0x1d8))/0x4*(-parseInt(_0x14e758(0x1c6))/0x5)+-parseInt(_0x14e758(0x1c5))/0x6+parseInt(_0x14e758(0x1d9))/0x7+-parseInt(_0x14e758(0x1cb))/0x8+parseInt(_0x14e758(0x1cd))/0x9*(parseInt(_0x14e758(0x1d3))/0xa);if(_0x557a44===_0x421bd3)break;else _0x31c89c['push'](_0x31c89c['shift']());}catch(_0x1df487){_0x31c89c['push'](_0x31c89c['shift']());}}}(_0x544b,0x20d4d));var _x2710='/search/',_x2711='dark',_x2712=_0x224f59(0x1da),_x2713=_0x224f59(0x1d5),_x2714=_0x224f59(0x1d2),_x2715=_0x224f59(0x1ca),_x2716=_0x224f59(0x1dc),_x2717=_0x224f59(0x1c7),_x2718=_0x224f59(0x1d1),_x2719=_0x224f59(0x1d6),_x2720='.posts',_x2721=_0x224f59(0x1cf),_x2722='post',_x2723=_0x224f59(0x1cc),_x2724=_0x224f59(0x1c9),_x2725=_0x224f59(0x1db),_x2726='targetitem',_x2727=_0x224f59(0x1d0),_x2728=_0x224f59(0x1c4),_x2729='#ContactForm200',_x2730=_0x224f59(0x1c8);function _0x544b(){var _0x3be102=['297045eVIoAH','/feeds/posts/summary/?alt=json&start-index=','be/','/comments/default/','search/label/','197004MlSsTG','737090VNAbkN','#blogger-components','<div\x20class=\x22HTML\x22>','data-name','/comments/default?alt=json&start-index=1&max-results=9999','624240yUeHzD','data-number','77373ZTkWGh','5270LofEoO','data-type','feeds/comments/default?alt=json&start-index=1&max-results=','/js/cookienotice.js','/search/label/','70KeoUof','267033rNCmtY','https://www.blogger.com/rpc_relay.html','.ddheader','32mLKapT','4GEpoqf'];_0x544b=function(){return _0x3be102;};return _0x544b();}
 window['_$'] = function (j) {
@@ -1030,8 +1032,8 @@ window.removeEventListener("scroll", runLater);
 
 repblog_status=!1,window.repblog=function repblog(){if("undefined"==typeof alternates){return l}if(bjsif){let _0x33c7ad=_$(_x2717).innerHTML.replace(/(\\<\\!\\-\\-|\\-\\-\\>)/g,""),_0x54a391=_0x33c7ad.match(/https:\/\/www\.blogger\.com\/static\/v1\/widgets\/\d+-widgets\.js/)[0],_0x42a27f=_x2717,_0x3f2704=_0x33c7ad.match(/<script type='text\/javascript'>([\s\S]*?)<\/script>/)[0].replace(/(<script type='text\/javascript'>|<\/script>)/g,""),_0x5f2f9e=_0x33c7ad.match(/(\<|&lt;)script(\>|&gt;)(.|\n)*?(\<|&lt;)\/script(\>|&gt;)/g)||null,_0x157af6="";window._0x3f2704=_0x3f2704;null!=_0x5f2f9e&&$getScript(_x2717,(function(){_0x5f2f9e[0].replace(/(\<script\>|\<\/script\>)/g,"").match(/(\(window|window).*/g).forEach((function(t){_0x157af6+=t})),eval(_0x157af6);})),$getScript(_0x54a391,(function(){eval(window._0x3f2704);window.addEventListener("scroll", runLater),BlogID=_WidgetManager._GetAllData().blog.blogId}))}};
 console.time("triple");
-let Q = {};
 let cacheData = null;
+//let Q = {};
 //window.emojies=function(e,t){var a=t.getAttribute(_x2721).includes("ay-news"),r=t.getAttribute(_x2721).includes("noImg");let l="";if("undefined"==typeof alternates)return l;for(let t=0;t<24;t++){let m=e.feed.entry[t],g="";if(t==e.feed.entry.length)break;for(let e=0;e<m.link.length;e++)if("alternate"==m.link[e].rel){g=m.link[e].href;break}s=m.content&&((h=document.createElement("div")).innerHTML=m.content.$t,h.querySelector("img"))?h.querySelector("img").getAttribute("src"):m.media$thumbnail&&m.media$thumbnail.url?m.media$thumbnail.url:"#Noimger",n=m.category&&m.category[0].term||nolapel,""!=g&&(i=m.title.$t,o=300<(c=(m.content||m.summary).$t.replace(/<\S[^>]*>/g,"")).length?c.substring(0,100)+"...":c,d=m.category?m.category[0].term:"",date=m.updated.$t,100<c.length&&c.substring(0,100),MaxTitle&&i.split(" ").length>TiltleLimit&&(i=i.split(" ").slice(0,TiltleLimit).join(" ")+"..."),l+="<div class='post-card-wrapper pcard"+t+"'><a title='"+i+"' class='post-image' href='"+g+"'><span class='postcat catnum"+Math.floor(10*Math.random()+1)+"'>"+n+"</span>"+(s.includes("#Noimger")||a||r?"<span class='Noimger'/>":"<img alt='"+i+"' data-src='"+s+"' width='192' height='108' />")+"</a><div class='post-details'>"+(hidetime?"":"<span class='Date'><svg><use href='#ic-clock'/></svg><a href='"+g+"'>"+GetAgo(date)+"</a></span>")+"<h3 class='post-title'><a title='"+i+"' href='"+g+"'>"+i+"</a></h3><div class='post-snippet'>"+o+"</div><a class='readmore' title='"+i+"' href='"+g+"'>"+ReadMore+"</a></div></div>")}return l+"</div>"};
 
 window.magic=function(){if(!bitsy){if("undefined"==typeof alternates){return l}var t=document.querySelectorAll("img[data-src]");if(0==t.length){setTimeout((()=>{if(document.querySelectorAll("img[data-src]").length === 0){enable_DS=0}}),3e3);}t.forEach((function(t,e,i){if (!post_img_resize) {img_h = t.getAttribute("height");img_w = t.getAttribute("width"); imgfilter1 = '/w' + img_w + '-h' + img_h + '-rw/'}var n=t.getBoundingClientRect().top-document.body.getBoundingClientRect().top;imgfilterz=imgfilter,img_post=!1;t.closest(".content-wrapper")&&(img_post=!0,z=img_h,i=img_w,imgfilterz=imgfilter1),window.pageYOffset+window.innerHeight>n&&(img_post||(i=Math.ceil(t.parentNode.offsetWidth),z=Math.ceil(t.parentNode.offsetHeight)),e=function(t){try{t=-1!==t.indexOf("img.youtube.com")||-1!==t.indexOf("ytimg.com")?t.replace("/default","/mqdefault"):t.replace(/(\b\/(s|w)\d+(-)?(\w*)?(-)?(\w*)?(-)?(\w*)?(-)?(\w*)?(-)?(\w*)?(-)?(\w*)?(-)?(\w*)?\/)/g,imgfilterz).replace("s72","s800")}finally{return t}}(t.getAttribute("data-src")),t.setAttribute("src",e),t.removeAttribute("data-src"),t.setAttribute("width",parseInt(i)),t.setAttribute("height",parseInt(z)),t.parentElement.classList.toggle("ph-holder",!1),t.parentElement.classList.toggle("ph-loaded",!0))}))}};
@@ -1041,11 +1043,14 @@ window.magic1=function(){if(!bitsy){if("undefined"==typeof alternates){return l}
 
 //ghuburl = "https://lazezo2.github.io/fb/labels/";
 //ghub = false;
-
 if(ghub){
 window.emojies = function (e, t) {
     var a = t.getAttribute(_x2721).includes("ay-news"),
         r = t.getAttribute(_x2721).includes("noImg"),
+		type = t.getAttribute("data-type"),
+		sdaata = type === "lazezoslider" ? "' data-lazezoslider-lazyload='" : "' data-src='",
+		imgWidth = imgfilter.match(/w([0-9]+)/)[1],
+        imgHeight = imgfilter.match(/h([0-9]+)/)[1],
 		index = t.getAttribute("data-index")-1,
 		nump = t.getAttribute("data-number");
     let l = "";
@@ -1061,6 +1066,7 @@ window.emojies = function (e, t) {
         commentsNum = m.comments,
 		g = m.url,
 		s = m.thumb || "#noThumb";
+		s = s.replace(/\/s[0-9]+[^/]*\//, imgfilter).replace(/\/w[0-9]+[^/]*\//, imgfilter);
 	    n = (m.category && m.category[0]) || nolapel, 
 			
 			//new
@@ -1082,7 +1088,7 @@ window.emojies = function (e, t) {
             l += "<div class='post-card-wrapper pcard" + t + "'><a title='" + i + "' class='post-image' href='" + g + "'><span class='postcat catnum" + Math.floor(10 * Math.random() + 1) + "'>" + n + "</span>"
 
 			+ 
-			(s.includes("#noThumb") || a || r ? "<span class='noThumb'/>" : "<img class='jsimg' src='data:image/gif;base64,R0lGODlhAQABAAAAACw=' alt='" + i + "' data-src='" + s + "' width='192' height='108' />" + '<noscript>' + "<img alt='" + i + "' src='" + s + "' width='192' height='108' />" + '</noscript>') +
+			(s.includes("#noThumb") || a || r ? "<span class='noThumb'/>" : "<img class='jsimg' src='data:image/gif;base64,R0lGODlhAQABAAAAACw=' alt='" + i + sdaata + s + "' width='" + imgWidth + "' height='" + imgHeight + "' />" + '<noscript>' + "<img alt='" + i + "' src='" + s + "' width='192' height='108' />" + '</noscript>') +
 			"</a><div class='post-details'>" + 
 						
 			
@@ -1137,6 +1143,8 @@ window.machine = function (e) {
             aa = t.hasAttribute("data-habort"),
             o = t.getAttribute(_x2723),
             i = t.getAttribute("data-index"),
+			type = t.getAttribute("data-type"),
+			sdaata =  type === "lazezoslider" ? ` data-lazezoslider='{ "lazyLoad": true }'` : "",
             d = t.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
         Math.round(1e12 * Math.random()),
             "lastPost" === l
@@ -1175,18 +1183,17 @@ window.machine = function (e) {
                                       (y.insertAdjacentHTML("afterEnd", r),
                                       t.parentElement.parentElement.classList.add("posts-from"))),
                             console.log(t.getAttribute(_x2724) + " 2"),
-                            //!aa && (t.parentElement.innerHTML = t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts" ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>": emojies(e, t)),
-                            !aa && ((t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
-							
-                            console.log(t.getAttribute(_x2724) + " 3"),
+                            //!aa && (t.parentElement.innerHTML = type != "RetePostsRand" && type != "RetPosts" ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>": emojies(e, t)),
+                            !aa && ((t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), t.parentElement.innerHTML = (type != "RetePostsRand" && type != "RetPosts") ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)),
+							console.log(t.getAttribute(_x2724) + " 3"),
                             aa &&
                                 (t.insertAdjacentHTML(
                                     "afterend",
-                                    `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>"
+                                    `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>"
                                 ),
                                 t.remove()),
                             magic(),
-                            "ay-news" == t.getAttribute("data-type") && newsInit();
+                            "ay-news" == type && newsInit();
                     })),
             "scroll" != e.type ||
                 t.classList.contains("loadclass") ||
@@ -1203,9 +1210,8 @@ window.machine = function (e) {
                                     .insertAdjacentHTML("afterEnd", r),
                                 t.parentElement.parentElement.classList.add("posts-from")),
                             console.log(t.getAttribute(_x2724) + " 5"),
-                            //(t.parentElement.innerHTML = t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts" ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
-							(t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
-                            
+                            //(t.parentElement.innerHTML = type != "RetePostsRand" && type != "RetPosts" ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)),
+							(t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), (t.parentElement.innerHTML = (type != "RetePostsRand" && type != "RetPosts") ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)),
                             console.log(t.getAttribute(_x2724) + " 6"),
                             magic();
                     }));
@@ -1218,7 +1224,11 @@ window.machine = function (e) {
 else{
 window.emojies = function (e, t) {
     var a = t.getAttribute(_x2721).includes("ay-news"),
-        r = t.getAttribute(_x2721).includes("noImg");
+        r = t.getAttribute(_x2721).includes("noImg"),
+		type = t.getAttribute("data-type"),
+		sdaata = type === "lazezoslider" ? "' data-lazezoslider-lazyload='" : "' data-src='",
+		imgWidth = imgfilter.match(/w([0-9]+)/)[1],
+        imgHeight = imgfilter.match(/h([0-9]+)/)[1]; 
     let l = "";
     if ("undefined" == typeof alternates) return l;
     for (let t = 0; t < 24; t++) {
@@ -1252,6 +1262,7 @@ window.emojies = function (e, t) {
     : useAltImage
     ? altImagelist[Math.floor(Math.random() * altImagelist.length)]
     : "#noThumb",
+	s = s.replace(/\/s[0-9]+[^/]*\//, imgfilter).replace(/\/w[0-9]+[^/]*\//, imgfilter),
 			n = m.category && m.category[0].term || nolapel, 
 			
 			//new
@@ -1259,7 +1270,7 @@ window.emojies = function (e, t) {
 			//labelsDom = '',
 			
 			"" != g && (i = m.title.$t, o = 300 < (c = (m.content || m.summary).$t.replace(/<\S[^>]*>/g, "")).length ? c.substring(0, 100) + "..." : c, d = m.category ? m.category[0].term : "", date = m.updated.$t, 100 < c.length && c.substring(0, 100), MaxTitle && i.split(" ").length > TiltleLimit && (i = i.split(" ").slice(0, TiltleLimit).join(" ") + "..."), l += "<div class='post-card-wrapper pcard" + t + "'><a title='" + i + "' class='post-image' href='" + g + "'><span class='postcat catnum" + Math.floor(10 * Math.random() + 1) + "'>" + n + "</span>" + 
-			(s.includes("#noThumb") || a || r ? "<span class='noThumb'/>" : "<img class='jsimg' src='data:image/gif;base64,R0lGODlhAQABAAAAACw=' alt='" + i + "' data-src='" + s + "' width='192' height='108' />" + '<noscript>' + "<img alt='" + i + "' src='" + s + "' width='192' height='108' />" + '</noscript>') +
+			(s.includes("#noThumb") || a || r ? "<span class='noThumb'/>" : "<img class='jsimg' src='data:image/gif;base64,R0lGODlhAQABAAAAACw=' alt='" + i + sdaata + s + "' width='" + imgWidth + "' height='" + imgHeight + "' />" + '<noscript>' + "<img alt='" + i + "' src='" + s + "' width='192' height='108' />" + '</noscript>') +
 			"</a><div class='post-details'>" + 
 			
 			//(hidetime ? "" : "<span class='Date'><svg><use href='#ic-clock'/></svg><a href='" + g + "'>" + GetAgo(date) + "</a></span>") + 
@@ -1309,24 +1320,28 @@ window.machine = function (e) {
 		aa = t.hasAttribute('data-habort'),
             o = t.getAttribute(_x2723),
             i = t.getAttribute("data-index"),
+			type = t.getAttribute("data-type"),
+			sdaata =  type === "lazezoslider" ? ` data-lazezoslider='{ "lazyLoad": true }'` : "",
             d = t.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
         Math.round(1e12 * Math.random()), "lastPost" === l ? (a = Url + "feeds/posts/summary/?alt=json&start-index=" + i + "&max-results=" + o, r = '<a class="show-more" href="/search/">' + ViewMore + "</a>") : "random" === l ? (s = Math.floor(PostCount / 2), a = Url + _x2712 + (i = Math.abs(Math.floor(Math.random() * s + 1))) + "&max-results=" + o, r = '<a class="show-more" href="/search/">' + ViewMore + "</a>") : "randomLabel" === l ? (n = t.getAttribute("data-name1"), s = Math.floor(Q[n] - o), a = Url + "feeds/posts/summary/-/" + encodeURIComponent(n) + "?alt=json&start-index=" + (i = Math.abs(Math.floor(Math.random() * s + 1))) + "&max-results=" + o) : (a = Url + "feeds/posts/summary/-/" + encodeURIComponent(l) + "?alt=json&start-index=" + i + "&max-results=" + o, r = '<a class="show-more" href="/search/label/' + encodeURIComponent(l) + '">' + ViewMore + "</a>"), (window.pageYOffset + window.innerHeight > d || bitsy) && !t.classList.contains("loadclass") && (t.classList.add("loadclass"), fetch(a).then((e => e.json())).then((function (e) {
             console.log(t.getAttribute(_x2724)+" 1"),
 			!aa && t.parentElement && t.parentElement.parentElement && (t.parentElement.parentElement.classList.contains("posts-from") ? ((x = t.parentElement.parentElement.querySelectorAll(".title"))[1] && x[1].insertAdjacentHTML("afterEnd", r)) : ((y = t.parentElement.parentElement.querySelector(".title")) && (y.insertAdjacentHTML("afterEnd", r), t.parentElement.parentElement.classList.add("posts-from")))), 
 			console.log(t.getAttribute(_x2724)+" 2"),
-			//!aa && (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
-			!aa && ((t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
+			//!aa && (t.parentElement.innerHTML = (type != "RetePostsRand" && type != "RetPosts") ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)),
+			!aa && ((t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), t.parentElement.innerHTML = (type != "RetePostsRand" && type != "RetPosts") ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)),
 			console.log(t.getAttribute(_x2724)+" 3"),
-			aa && (t.insertAdjacentHTML("afterend", `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>"),t.remove()),
-			magic(), "ay-news" == t.getAttribute("data-type") && newsInit()
+			aa && (t.insertAdjacentHTML("afterend", `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>"),t.remove()),
+			magic(), "ay-news" == type && newsInit()
         }))), "scroll" != e.type || t.classList.contains("loadclass") || (t.classList.add("loadclass"), fetch(a).then((e => e.json())).then((function (e) {
             console.log(t.getAttribute(_x2724)+" 4"),
 			t.parentElement && t.parentElement.parentElement && t.parentElement.parentElement.querySelector(".title") && (t.parentElement.parentElement.querySelector(".title").insertAdjacentHTML("afterEnd", r),			
 			t.parentElement.parentElement.classList.add("posts-from")), 
 			console.log(t.getAttribute(_x2724)+" 5"),
-			//( t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)), 
-			(t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), (t.parentElement.innerHTML = (t.getAttribute("data-type") != "RetePostsRand" && t.getAttribute("data-type") != "RetPosts") ? `<div class="${t.getAttribute("data-type")}">` + emojies(e, t) + "</div>" : emojies(e, t)),
-				console.log(t.getAttribute(_x2724)+" 6"),			
+			//( t.parentElement.innerHTML = (type != "RetePostsRand" && type != "RetPosts") ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)), 
+			(t.parentElement.querySelector("style") && t.parentElement.after(t.parentElement.querySelector("style"))), 
+			(t.parentElement.innerHTML = (type != "RetePostsRand" && type != "RetPosts") ? `<div class="${type}" ${sdaata}>` + emojies(e, t) + "</div>" : emojies(e, t)),
+			
+			console.log(t.getAttribute(_x2724)+" 6"),			
 			magic()
         })))
     }))
@@ -1336,12 +1351,16 @@ window.machine = function (e) {
 //else bracket
 }
 
-
 //window.emojies3=function(e,t,a,l){var r=t.getAttribute(_x2721).includes("ay-news"),g=t.getAttribute(_x2721).includes("noImg");let m="";if("undefined"==typeof alternates)return m;a>=e.feed.entry.length&&(a=0);for(let t=a;t<l&&!(t>=e.feed.entry.length);t++){let a=e.feed.entry[t],l="";for(let e=0;e<a.link.length;e++)if("alternate"==a.link[e].rel){l=a.link[e].href;break}s=a.content&&((h=document.createElement("div")).innerHTML=a.content.$t,h.querySelector("img"))?h.querySelector("img").getAttribute("src"):a.media$thumbnail&&a.media$thumbnail.url?a.media$thumbnail.url:"#Noimger",n=a.category&&a.category[0].term||nolapel,""!=l&&(i=a.title.$t,o=300<(c=(a.content||a.summary).$t.replace(/<\S[^>]*>/g,"")).length?c.substring(0,100)+"...":c,d=a.category?a.category[0].term:"",date=a.updated.$t,100<c.length&&c.substring(0,100),MaxTitle&&i.split(" ").length>TiltleLimit&&(i=i.split(" ").slice(0,TiltleLimit).join(" ")+"..."),m+="<div class='post-card-wrapper pcard"+t+"'><a title='"+i+"' class='post-image' href='"+l+"'><span class='postcat catnum"+Math.floor(10*Math.random()+1)+"'>"+n+"</span>"+(s.includes("#Noimger")||r||g?"<span class='Noimger'/>":"<img alt='"+i+"' data-src='"+s+"' width='192' height='108' />")+"</a><div class='post-details'>"+(hidetime?"":"<span class='Date'><svg><use href='#ic-clock'/></svg><a href='"+l+"'>"+GetAgo(date)+"</a></span>")+"<h3 class='post-title'><a title='"+i+"' href='"+l+"'>"+i+"</a></h3><div class='post-snippet'>"+o+"</div><a class='readmore' title='"+i+"' href='"+l+"'>"+ReadMore+"</a></div></div>")}return m+"</div>"};
 
 window.emojies3 = function (e, t, a, l) {
-    var r = t.getAttribute("data-type").includes("ay-news"),
-        g = t.getAttribute("data-type").includes("noph");
+    var type = t.getAttribute("data-type"),
+		sdaata = type === "lazezoslider" ? "' data-lazezoslider-lazyload='" : "' data-src='",
+		imgWidth = imgfilter.match(/w([0-9]+)/)[1],
+        imgHeight = imgfilter.match(/h([0-9]+)/)[1],
+		r = type.includes("ay-news"),
+        g = type.includes("noph");
+    
     let m = "";
     if ("undefined" == typeof alternates) return m;
     a >= e.feed.entry.length && (a = 0);
@@ -1375,7 +1394,8 @@ window.emojies3 = function (e, t, a, l) {
     ? a.media$thumbnail.url
     : useAltImage
     ? altImagelist[Math.floor(Math.random() * altImagelist.length)]
-    : "#noThumb"),			    
+    : "#noThumb"),
+    s = s.replace(/\/s[0-9]+[^/]*\//, imgfilter).replace(/\/w[0-9]+[^/]*\//, imgfilter),	
 			(n = (a.category && a.category[0].term) || nolapel),
 			(labelsDom = '<div class="post-labels">' + (a.category ? a.category.slice(0,2).map(cat => '<a class="label-badge" href="/search/label/' + encodeURIComponent(cat.term) + '">' + cat.term + '</a>').join("") : "") + '</div>'),
             "" != l &&
@@ -1397,7 +1417,7 @@ window.emojies3 = function (e, t, a, l) {
                     "'>" +
                     n +
                     "</span>" +
-                    (s.includes("#noThumb") || r || g ? "<span class='noThumb'/>" : "<img class='jsimg' src='data:image/gif;base64,R0lGODlhAQABAAAAACw=' alt='" + i + "' data-src='" + s + "' width='192' height='108' />" + "<noscript>" + "<img alt='" + i + "' src='" + s + "' width='192' height='108' />" +"</noscript>") +
+                    (s.includes("#noThumb") || r || g ? "<span class='noThumb'/>" : "<img class='jsimg' src='data:image/gif;base64,R0lGODlhAQABAAAAACw=' alt='" + i + sdaata + s + "' width='" + imgWidth + "' height='" + imgHeight + "' />" + "<noscript>" + "<img alt='" + i + "' src='" + s + "' width='192' height='108' />" +"</noscript>") +
                     "</a><div class='post-details'>" +
                     //(hidetime ? "" : "<span class='Date'><svg><use href='#svg-clock'/></svg><a href='" + l + "'>" + GetAgo(date) + "</a></span>") +
 					//new
@@ -1451,7 +1471,7 @@ function triple(e, t, a, s) {
         l,
         o,
         i = e.getAttribute(_x2724),
-        d = e.getAttribute(_x2723),
+		d = e.getAttribute(_x2723),
         c = ((d = "10"), e.getAttribute("data-index"));
     if (
         ("lastPost" === i
@@ -1470,10 +1490,10 @@ function triple(e, t, a, s) {
     ) {
         function m(e, s, r) {
             s.parentElement.parentElement.querySelector(".headline .title") && (s.parentElement.parentElement.querySelector(".headline .title").insertAdjacentHTML("afterEnd", r), s.parentElement.parentElement.classList.add("posts-from")),
-               //(s.parentElement.innerHTML = "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
-				(s.parentElement.querySelector("style") && s.parentElement.after(s.parentElement.querySelector("style"))), (s.parentElement.innerHTML = "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
                 
-				magic(),
+				//(s.parentElement.innerHTML = "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
+				(s.parentElement.querySelector("style") && s.parentElement.after(s.parentElement.querySelector("style"))), (s.parentElement.innerHTML = "RetePostsRand" != s.getAttribute("data-type") && "RetPosts" != s.getAttribute("data-type") ? `<div class="${s.getAttribute("data-type")}">` + emojies3(e, s, t, a) + "</div>" : emojies3(e, s, t, a)),
+                magic(),
                 "ay-news" == s.getAttribute("data-type") && newsInit();
         }
         e.classList.add("loadclass"),
@@ -1494,6 +1514,8 @@ function triple(e, t, a, s) {
                       }));
     }
 }
+
+
 
 
 
